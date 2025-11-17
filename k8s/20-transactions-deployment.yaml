@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: transactions
-          image: ghcr.io/sionkimadd/module_6_part3-transactions:f6665c5da0034dcbe51ad50be16c40b71386dc14
+          image: ghcr.io/sionkimadd/module_6_part3-transactions:7830ab1f26c9b35d8a8c84d4da7de330607cb890
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
